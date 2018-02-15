@@ -884,12 +884,23 @@ footer p{
     text-align: center;
   }
 
+  .contactMePopup{
+    width: 80%;
+    margin: 70px auto;
+
+  }
+
+  .contactMePopup .contactForm input, .contactMePopup .contactForm textarea {
+    width: 185px;
+  }
+
 }
 
 
 @media(max-width: 470px){
   nav .contactMe{
     z-index: 999999999 !important
+
   }
 }
 
