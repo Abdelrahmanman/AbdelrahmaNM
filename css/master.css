@@ -887,7 +887,8 @@ footer p{
   .contactMePopup{
     width: 80%;
     margin: 70px auto;
-    overflow-y: scroll !important;
+    height: auto;
+    padding-bottom: 26px;
   }
 
   .contactMePopup .contactForm input, .contactMePopup .contactForm textarea {
