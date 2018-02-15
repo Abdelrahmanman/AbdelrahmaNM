@@ -113,7 +113,7 @@ p{
 
 
 .topNavAnimation{
-  animation: topNavAnimation 1s ease-in-out;
+  animation: topNavAnimation .5s ease-in-out;
   top: 0;
   display: block !important;
 }
