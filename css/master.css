@@ -168,6 +168,13 @@ nav .contactMe{
     cursor: pointer;
 }
 
+
+.contactafterheader{
+    border-radius: 0 0 76px 0 !important;
+    height: 62px !important;
+    top: 0 !important;
+    line-height: 4 !important;
+}
 nav .contactMe:hover{
   box-shadow: none;
   transform: translateY(-5px);

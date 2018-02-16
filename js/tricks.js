@@ -11,18 +11,17 @@ $('document').ready(function(){
    });
 
 
-/*
 
   $( window ).scroll(function() {
     if($(this).scrollTop() > window.innerHeight){
-      $('.navPopup').addClass('topNavAnimation');
+      $('.contactMe').addClass('contactafterheader');
     }
     else {
-      $('.navPopup').removeClass('topNavAnimation');
+      $('.contactMe').removeClass('contactafterheader');
     }
    });
 
-*/
+
    $(window).scroll(function(){
        if($(this).scrollTop()>= 500)
          {$(".backToTop").slideDown();}
@@ -42,6 +41,8 @@ $('document').ready(function(){
    cursorborderradius:4,
    autohidemode:'leave'
    });
+
+
 
 
 
