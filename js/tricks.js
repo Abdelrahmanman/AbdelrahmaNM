@@ -5,6 +5,8 @@ $('document').ready(function(){
 
 
 
+
+
   $('.me,.home').click(function () {
     $('html, body').animate({
      scrollTop : $('#' + $(this).data('value')).offset().top - 150}, 700);
@@ -60,4 +62,9 @@ $('document').ready(function(){
       $('nav .navbar .navIcon').slideDown();
    })
 
+})
+
+
+$(window).load(function(){
+  $('.spinner').fadeOut();
 })
